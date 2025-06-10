@@ -1,4 +1,4 @@
-### **EShops Java backend project :**
+### **EShops Java back-end project :**
 This project is a **Java-based backend for a shopping cart system**, utilizing **Spring Boot**, **Spring Security**, and **JWT** for secure authentication and authorization. The project offers REST APIs for managing products, categories, users, carts, and orders. It also handles media (images) and integrates role-based access control to differentiate between **admin** and **user** functionalities.
 
 ### **Key Features:**
@@ -19,7 +19,6 @@ This project is a **Java-based backend for a shopping cart system**, utilizing *
 ### **API Breakdown:**
 
 ### **1. Product API:**
-
 - **Add Product**: Admins can create new products.
 - **Get All Products**: Retrieves a full list of products.
 - **Get Product by ID**: Fetches details of a specific product.
@@ -29,7 +28,6 @@ This project is a **Java-based backend for a shopping cart system**, utilizing *
 - **Delete Product**: Admins can delete a product.
 
 ### **2. Category API:**
-
 - **Add Category**: Admins can create new categories.
 - **Get All Categories**: Retrieves all categories.
 - **Get Category by ID**: Fetches category details by ID.
@@ -37,19 +35,16 @@ This project is a **Java-based backend for a shopping cart system**, utilizing *
 - **Delete Category**: Admins can delete a category.
 
 ### **3. Image API:**
-
 - **Upload Image**: Allows image uploads (e.g., for products or users).
 - **Download Image**: Serves images stored in the system.
 
 ### **4. User API:**
-
 - **Add User**: Creates a new user account.
 - **Delete User**: Deletes a user.
 - **Update User**: Updates user information.
 - **Get User Details**: Retrieves user information based on the user ID.
 
 ### **5. Cart API:**
-
 - **Add Items to Cart**: Adds products to the cart.
 - **Remove Items from Cart**: Removes specific items from the cart.
 - **Update Cart Items**: Updates item quantities or selections in the cart.
@@ -58,7 +53,6 @@ This project is a **Java-based backend for a shopping cart system**, utilizing *
 - **Get Total Price**: Calculates and returns the total price of items in the cart.
 
 ### **6. Order API:**
-
 - **Place Order**: Allows users to place orders based on their cart.
 - **Get Order by User ID and Order ID**: Retrieves order details based on a combination of user ID and order ID.
 
